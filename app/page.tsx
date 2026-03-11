@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -13,6 +13,7 @@ import { AchievementItem } from "@/components/achievement-item";
 import { Dock } from "@/components/dock";
 import { SkillsDraggable } from "@/components/skills-draggable";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { XIcon } from "@/components/x-icon";
 import {
   ScrollAnimation,
   FadeInText,
@@ -161,9 +162,9 @@ export default function Page() {
                         href="https://x.com/tejas_87_"
                         target="_blank"
                         rel="noreferrer"
-                        aria-label="Open Twitter"
+                        aria-label="Open X"
                       >
-                        <Twitter className="h-4 w-4" />
+                        <XIcon className="h-4 w-4" />
                       </a>
                     </Button>
                     <Button
@@ -483,10 +484,10 @@ and user friendly web solutions."
                       href="https://x.com/tejas_87_"
                       target="_blank"
                       rel="noreferrer"
-                      aria-label="Twitter"
+                      aria-label="X"
                       className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-neutral-200 hover:bg-neutral-50 dark:border-neutral-800 dark:hover:bg-neutral-900"
                     >
-                      <Twitter className="h-4 w-4" />
+                      <XIcon className="h-4 w-4" />
                     </a>
                     <a
                       href="https://github.com/TejasGorde67"
