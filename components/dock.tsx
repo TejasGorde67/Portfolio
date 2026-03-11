@@ -1,12 +1,19 @@
-import { Github, Home, Mail, Globe2, User, Linkedin } from "lucide-react";
-import { XIcon } from "@/components/x-icon";
+import {
+  Github,
+  Home,
+  Mail,
+  Globe2,
+  User,
+  Twitter,
+  Linkedin,
+} from "lucide-react";
 
 export function Dock() {
   const items = [
     { icon: Home, label: "Home", href: "#" },
     {
-      icon: XIcon,
-      label: "X",
+      icon: Twitter,
+      label: "Twitter",
       href: "https://x.com/tejas_87_",
     },
     { icon: Github, label: "GitHub", href: "https://github.com/TejasGorde67" },
