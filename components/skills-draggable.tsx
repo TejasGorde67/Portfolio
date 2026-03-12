@@ -23,7 +23,6 @@ import {
   SiGithub,
   SiDocker,
   SiSocketdotio,
-  SiAmazonwebservices,
   SiNeo4J,
   SiStreamlit,
   SiPostman,

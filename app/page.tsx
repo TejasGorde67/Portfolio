@@ -237,10 +237,10 @@ export default function Page() {
                   <SlideInLeft delay={0.1}>
                     <WorkItem
                       icon="shield"
-                      company="Freelancer"
+                      company="Goanny Technologies"
                       role="Mobile App Developer"
                       period="Jan 2026 – Present"
-                      summary="Worked on FitnessWiz, a workout tracking mobile application that allows users to monitor muscle recovery and workout progress. Developed cross-platform mobile features using React Native, Redux, and React Navigation, integrated REST APIs and authentication flows for secure login and workout data management "
+                      summary="Built production ready mobile apps using React Native, implementing robust development workflows and maintaining performance optimization. Delivered features under tight timelines while maintaining clean code. Following mobile app development best practices. "
                       logoUrl="/stealth.jpeg"
                     />
                   </SlideInLeft>
