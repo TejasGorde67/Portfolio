@@ -23,6 +23,7 @@ import {
   SiGithub,
   SiDocker,
   SiSocketdotio,
+  SiHtml5,
   SiNeo4J,
   SiStreamlit,
   SiPostman,
@@ -33,6 +34,12 @@ import {
   SiGraphql,
   SiWebpack,
   SiFigma,
+  SiCss,
+  SiRedux,
+  SiAxios,
+  SiAndroidstudio,
+  SiVsco,
+  // siMysql,
 } from "react-icons/si";
 import { FaTwitter } from "react-icons/fa";
 
@@ -67,29 +74,34 @@ function SkillPill({ label, icon }: Skill) {
 
 export function SkillsDraggable() {
   const skills: Skill[] = [
+    { label: "HTML", icon: <SiHtml5 className="h-3 w-3" /> },   
+    { label: "CSS3", icon: <SiCss className="h-3 w-3" /> },
     { label: "JavaScript", icon: <SiJavascript className="h-3 w-3" /> },
     { label: "TypeScript", icon: <SiTypescript className="h-3 w-3" /> },
+    { label: "React Native", icon: <SiReact className="h-3 w-3" /> },
     { label: "React.js", icon: <SiReact className="h-3 w-3" /> },
-    { label: "PostgreSQL", icon: <SiPostgresql className="h-3 w-3" /> },
-    { label: "Firebase", icon: <SiFirebase className="h-3 w-3" /> },
-    { label: "Supabase", icon: <SiSupabase className="h-3 w-3" /> },
-    { label: "Next.js", icon: <SiNextdotjs className="h-3 w-3" /> },
+    { label: "Redux", icon: <SiRedux className="h-3 w-3" /> },
+    { label: "Axios", icon: <SiAxios className="h-3 w-3" /> },
     { label: "Node.js", icon: <SiNodedotjs className="h-3 w-3" /> },
     { label: "Express.js", icon: <SiExpress className="h-3 w-3" /> },
-    { label: "Tailwind CSS", icon: <SiTailwindcss className="h-3 w-3" /> },
-    { label: "Framer Motion", icon: <SiFramer className="h-3 w-3" /> },
-    { label: "MongoDB", icon: <SiMongodb className="h-3 w-3" /> },
-    { label: "Vercel", icon: <SiVercel className="h-3 w-3" /> },
     { label: "Git", icon: <SiGit className="h-3 w-3" /> },
     { label: "GitHub", icon: <SiGithub className="h-3 w-3" /> },
+    { label: "AndroidStudio", icon: <SiAndroidstudio className="h-3 w-3" /> },
+    { label: "Firebase", icon: <SiFirebase className="h-3 w-3" /> },
+    { label: "Next.js", icon: <SiNextdotjs className="h-3 w-3" /> },
+    { label: "Tailwind CSS", icon: <SiTailwindcss className="h-3 w-3" /> },
+    { label: "Postman", icon: <SiPostman className="h-3 w-3" /> },
+    { label: "Framer Motion", icon: <SiFramer className="h-3 w-3" /> },
+    { label: "MongoDB", icon: <SiMongodb className="h-3 w-3" /> },
+    // { label: "MySQL", icon: <siMysql className="h-3 w-3" /> },
+    { label: "Vercel", icon: <SiVercel className="h-3 w-3" /> },
+    { label: "VS Code", icon: <SiVsco className="h-3 w-3" /> },
    
-    
-   
-    { label: "Postman API", icon: <SiPostman className="h-3 w-3" /> },
+    // { label: "Postman API", icon: <SiPostman className="h-3 w-3" /> },
    
     { label: "Shadcn UI", icon: <SiShadcnui className="h-3 w-3" /> },
 
-    { label: "Figma", icon: <SiFigma className="h-3 w-3" /> },
+    // { label: "Figma", icon: <SiFigma className="h-3 w-3" /> },
     
   ];
 

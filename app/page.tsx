@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, X } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -163,7 +163,7 @@ export default function Page() {
                         rel="noreferrer"
                         aria-label="Open Twitter"
                       >
-                        <Twitter className="h-4 w-4" />
+                        <X className="h-4 w-4" /> 
                       </a>
                     </Button>
                     <Button
@@ -277,7 +277,7 @@ and user friendly web solutions."
                       links={[
                         {
                           label: "live preview ↗",
-                          href: "",
+                          href: "https://drive.google.com/file/d/1TjHJn4_QeU_L7xGZd5nJKrLM29H7sQMg/view?usp=sharing",
                         },
                         
                       ]}
@@ -317,7 +317,7 @@ and user friendly web solutions."
             </SlideUp>
 
                         {/* Projects */}
-            <SlideUp delay={0.2}>
+            {/* <SlideUp delay={0.2}>
               <section id="projects" className="mt-8 section-lines p-4">
                 <FadeInText delay={0.1}>
                   <h3 className="text-sm font-semibold text-neutral-900 dark:text-neutral-50 mb-4">
@@ -343,32 +343,10 @@ and user friendly web solutions."
                       tags={["React", "TypeScript", "TailwindCSS", "Supabase"]}
                     />
                   </SlideInLeft>
-                  {/* <SlideInRight delay={0.1}>
-                    <ProjectListItem
-                      title="ACHIEVEr"
-                      links={[
-                        {
-                          label: "live preview ↗",
-                          href: "",
-                        },
-                      ]}
-                      bullets={[
-                        "Converts natural language into SQL, reducing query time by 90% and improving accessibility non-tech users.",
-                        "Editable SQL previews with live execution on 20+ databases.",
-                        "Deployed on Streamlit Cloud with zero‑downtime CI/CD.",
-                      ]}
-                      tags={[
-                        "Python",
-                        "Streamlit",
-                        "SQLite",
-                        "Google Gemini Pro",
-                      ]}
-                    />
-                  </SlideInRight> */}
-                  
+                 
                 </div> 
               </section>
-            </SlideUp>
+            </SlideUp> */}
 
 
 
@@ -486,7 +464,7 @@ and user friendly web solutions."
                       aria-label="Twitter"
                       className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-neutral-200 hover:bg-neutral-50 dark:border-neutral-800 dark:hover:bg-neutral-900"
                     >
-                      <Twitter className="h-4 w-4" />
+                      <X className="h-4 w-4" />
                     </a>
                     <a
                       href="https://github.com/TejasGorde67"
