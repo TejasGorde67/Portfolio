@@ -217,7 +217,7 @@ export default function Page() {
                   using 𝚁𝚎𝚊𝚌𝚝 𝙽𝚊𝚝𝚒𝚟𝚎. 
                    
                   Hands-on experience of  building mobile apps, I am currently working
-                  as a freelancer and focusing on mobile app development
+                  as intern & freelancer and focusing on mobile app development
                   best practices. Open to Work Full-time roles.
 
                 </p>
@@ -238,7 +238,7 @@ export default function Page() {
                     <WorkItem
                       icon="shield"
                       company="Goanny Technologies"
-                      role="Mobile App Developer"
+                      role="React Native Developer Intern"
                       period="Jan 2026 – Present"
                       summary="Built production ready mobile apps using React Native, implementing robust development workflows and maintaining performance optimization. Delivered features under tight timelines while maintaining clean code. Following mobile app development best practices. "
                       logoUrl="/stealth.jpeg"
@@ -282,11 +282,12 @@ and user friendly web solutions."
                         
                       ]}
                       bullets={[
-                        "Built in 24 hours at Call2Code Hackathon (MUJ) and selected as a finalist among 100+ teams.",
-                        "Developed 12+ features: real-time charts, multilingual support (English, Hindi, Spanish),voice navigation using Web Speech API.",
-                        "Integrated APIs for real-time financial analytics and sentiment analysis across 50+ tickers.",
+                        "Designed and developed a  React Native mobile application using JavaScript and React Hooks to implement a complete task management system.",
+                        "Built multiple UI screens including Login, Signup, Dashboard, Tasks, Profile, and Settings using reusable components",
+                        "Implemented full CRUD functionality for tasks with features such as task completion tracking, priority levels, due dates, and search/filter capabilities.",
+                        "Developed scalable navigation using React Navigation to manage authentication flows and multi-screen routing."
                       ]}
-                      tags={["React", "TypeScript", "TailwindCSS", "Supabase"]}
+                      tags={["React Native", "JavaScript", "Context API", "React Navigation", "AsyncStorage"]}
                     />
                   </SlideInLeft>
                   <SlideInRight delay={0.1}>
@@ -294,20 +295,19 @@ and user friendly web solutions."
                       title="ACHIEVEr"
                       links={[
                         {
-                          label: "live preview ↗",
+                          label: "Building... ↗",
                           href: "",
                         },
                       ]}
                       bullets={[
-                        "Converts natural language into SQL, reducing query time by 90% and improving accessibility non-tech users.",
-                        "Editable SQL previews with live execution on 20+ databases.",
-                        "Deployed on Streamlit Cloud with zero‑downtime CI/CD.",
+                        "Currently in Progress...."
                       ]}
                       tags={[
-                        "Python",
-                        "Streamlit",
-                        "SQLite",
-                        "Google Gemini Pro",
+                        "React Native",
+                        "Redux ",
+                        "React Navigation",
+                        "AsyncStorage ",
+                        "UI Libraries"
                       ]}
                     />
                   </SlideInRight>
