@@ -290,6 +290,29 @@ and user friendly web solutions."
                       tags={["React Native", "JavaScript", "Context API", "React Navigation", "AsyncStorage"]}
                     />
                   </SlideInLeft>
+
+                  <SlideInLeft delay={0.1}>
+                    <ProjectListItem
+                      title="Mealify"
+                      links={[
+                        {
+                          label: "live preview ↗",
+                          href: "",
+                        },
+                        
+                      ]}
+                      bullets={[
+                        "Designed and developed a React Native mobile application using JavaScript and React Hooks to enable users to search and explore recipes in real time.",
+                        "Built multiple UI screens including Home (Search), Meal Detail, and Favorites using reusable components and clean, responsive layouts.",
+                        "Integrated Third-party API TheMealDB API using Axios to fetch dynamic meal data, including images, categories, ingredients, and cooking instructions.",
+                        "Implemented favorites functionality using AsyncStorage to persist user-selected meals across sessions with add/remove capability.",
+                        "Optimized performance using FlatList for efficient rendering of meal lists and implemented loading and error handling for better user experience.",
+                        "Developed seamless navigation using React Navigation (Native Stack) to manage multi-screen routing and smooth transitions."
+                      ]}
+                      tags={["React Native", "JavaScript", " Axios ", "React Navigation", "AsyncStorage",  "API" ]}
+                    />
+                  </SlideInLeft>
+
                   <SlideInRight delay={0.1}>
                     <ProjectListItem
                       title="ACHIEVEr"
