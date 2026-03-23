@@ -313,7 +313,7 @@ and user friendly web solutions."
                     />
                   </SlideInLeft>
 
-                  <SlideInRight delay={0.1}>
+                  {/* <SlideInRight delay={0.1}>
                     <ProjectListItem
                       title="ACHIEVEr"
                       links={[
@@ -333,7 +333,7 @@ and user friendly web solutions."
                         "UI Libraries"
                       ]}
                     />
-                  </SlideInRight>
+                  </SlideInRight> */}
                   
                 </div> 
               </section>
