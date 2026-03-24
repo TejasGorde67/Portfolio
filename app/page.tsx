@@ -249,7 +249,7 @@ export default function Page() {
                       icon="building"
                       company="Labmentix"
                       role="Fullstack Developer Intern"
-                      period="June 2024 – Dec 2024"
+                      period="June 2025 – Dec 2025"
                       summary="worked on the design, development, and maintenance of web & mobile apps, gained hands on experience with frontend technologies,
 implemented responsive designs, and collaborated with the development team to deliver functional
 and user friendly web solutions."
